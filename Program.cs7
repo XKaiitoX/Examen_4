@@ -1,0 +1,19 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+
+var (valor1, valor2, valor3) = (true, true, false);
+
+bool resultand = valor1 && valor2 && valor3; 
+Console.WriteLine(resultand);
+
+bool resultor = valor1 || valor2 || valor3; 
+Console.WriteLine(resultor);
+
+bool resultandor = (valor1 && valor2) || valor3; 
+Console.WriteLine(resultandor);
+
+bool resultNot = !valor1; 
+Console.WriteLine(resultNot);
+
+bool resultXor = valor1 ^ valor2;
+Console.WriteLine(resultXor);
